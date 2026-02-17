@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="גלים — עמותה לחינוך ימי ושמירת הטבע. אנחנו מחברים ילדים לים, מגנים על חופינו, ומטפחים דור הבא של שוחרי הטבע." />
+  <meta name="keywords" content="עמותה, חינוך ימי, שמירת טבע, ים, ילדים, התנדבות, תרומה, גלים" />
+  <meta property="og:title" content="גלים — עמותה לחינוך ימי" />
+  <meta property="og:description" content="מחברים ילדים לים, מגנים על חופינו, מטפחים דור עתיד." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/images/og-image.jpg" />
+  <title>גלים — עמותה לחינוך ימי ושמירת הטבע</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" role="navigation" aria-label="ניווט ראשי">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="גלים — דף הבית">
+        <div class="nav__logo-mark" aria-hidden="true">🌊</div>
+        <div>
+          <span class="nav__logo-text">גלים</span>
+          <span class="nav__logo-sub">עמותה לחינוך ימי</span>
+        </div>
+      </a>
+
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="active">בית</a></li>
+        <li><a href="about/index.html">אודות</a></li>
+        <li><a href="blog/index.html">בלוג</a></li>
+        <li><a href="#donation" class="nav__cta">תרומה</a></li>
+      </ul>
+
+      <button class="nav__hamburger" aria-label="פתח תפריט" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="nav__mobile" id="mobileMenu" role="menu">
+      <a href="index.html" role="menuitem">בית</a>
+      <a href="about/index.html" role="menuitem">אודות</a>
+      <a href="blog/index.html" role="menuitem">בלוג</a>
+      <a href="#donation" role="menuitem">תרומה</a>
+      <a href="#volunteer" role="menuitem">התנדבות</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home" aria-label="דף הבית">
+      <div class="hero__bg-shapes" aria-hidden="true">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__orb hero__orb--3"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="hero__eyebrow" aria-label="עמותה רשומה">
+            <span>עמותה רשומה ע"ר מס׳ 580123456</span>
+          </div>
+
+          <h1 class="hero__title">
+            הים הוא <em>מורה</em><br />
+            הכי טוב שיש
+          </h1>
+
+          <p class="hero__desc">
+            גלים היא עמותה המחברת ילדים מכל שכבות החברה לים ולטבע — כי כל ילד ראוי לגלות את הפלא הזה.
+            אנחנו מגנים על חופי ישראל, שולחים מתנדבים לכיתות, ומטפחים דור שאוהב ומכבד את הטבע.
+            כי ים שמור מתחיל בלב פתוח של ילד אחד.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#donation" class="btn btn-primary">
+              ❤️ &nbsp;לתרומה
+            </a>
+            <a href="#volunteer" class="btn btn-outline">
+              🤝 &nbsp;להתנדבות
+            </a>
+          </div>
+
+          <div class="hero__stats" aria-label="נתוני פעילות">
+            <div class="hero__stat">
+              <div class="hero__stat-num" data-counter data-target="1240" data-suffix="+">1240+</div>
+              <div class="hero__stat-label">ילדים בתכניות</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-num" data-counter data-target="800" data-suffix="+">800+</div>
+              <div class="hero__stat-label">מתנדבים</div>
+            </div>
+            <div class="hero__stat">
+              <div class="hero__stat-num" data-counter data-target="3200" data-suffix="+">3200+</div>
+              <div class="hero__stat-label">אלמוגים נשתלו</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__waves" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 60 C240 0 480 120 720 60 C960 0 1200 120 1440 60 L1440 120 L0 120 Z" fill="rgba(255,255,255,0.06)"/>
+          <path d="M0 80 C360 20 720 140 1080 80 C1260 50 1380 90 1440 80 L1440 120 L0 120 Z" fill="white"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===== STORY & RESULTS ===== -->
+    <section class="story section" id="story" aria-labelledby="storyTitle">
+      <div class="container">
+        <div class="story__grid">
+          <!-- Visual -->
+          <div class="story__visual reveal">
+            <div class="story__img-wrap" role="img" aria-label="ילדים על החוף">
+              <div class="story__img-placeholder">
+                <span style="font-size:5rem;">🏖️</span>
+                <span>תמונת ילדים על החוף</span>
+              </div>
+            </div>
+            <div class="story__float-card" aria-label="נתון: 12 שנות פעילות">
+              <div class="story__float-icon" aria-hidden="true">🏆</div>
+              <div>
+                <div class="story__float-num" data-counter data-target="12">12</div>
+                <div class="story__float-label">שנות פעילות</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="story__content reveal reveal--delay-2">
+            <div class="badge">✦ הסיפור שלנו</div>
+            <h2 class="section-title" id="storyTitle" style="text-align:right;">
+              מגל אחד לאלפי<br/>חיים שהשתנו
+            </h2>
+
+            <p>
+              גלים נולדה ב-2012 מרעיון פשוט: ים ישראל שייך לכולם. אבל בפועל, ילדים רבים — במיוחד אלה מפריפריה, ממשפחות מוחלשות, או עם צרכים מיוחדים — לא גדלים לצדו, לא מכירים אותו, ולא נהנים ממנו.
+            </p>
+
+            <div class="story__highlight">
+              ״כשילד נוגע בגל בפעם הראשונה, משהו בתוכו נפתח שלא יסגר לעולם.״
+              <br/><strong>— יעל שמש, מייסדת</strong>
+            </div>
+
+            <p>
+              בשנים הראשונות פעלנו בתל אביב בלבד — חמישה ילדים, שתי מדריכות, ורצון לב. היום אנחנו נוכחים בשבע ערים, עם צוות של 40 אנשים ורשת מתנדבים שאין כמותה.
+            </p>
+
+            <p>
+              כל שקל שמגיע אלינו יוצא ישירות לתכניות: לאוטובוסים שמביאים ילדים לחוף, לציוד גלישה, למתנדבים המוסמכים, ולמחקר שמוכיח שמה שאנחנו עושים — עובד.
+            </p>
+
+            <div class="story__results" role="list" aria-label="תוצאות בשטח">
+              <div class="story__result-card" role="listitem">
+                <div class="story__result-num" data-counter data-target="7">7</div>
+                <div class="story__result-label">ערים</div>
+              </div>
+              <div class="story__result-card" role="listitem">
+                <div class="story__result-num" data-counter data-target="94" data-suffix="%">94%</div>
+                <div class="story__result-label">שביעות רצון</div>
+              </div>
+              <div class="story__result-card" role="listitem">
+                <div class="story__result-num" data-counter data-target="40">40</div>
+                <div class="story__result-label">אנשי צוות</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== VALUES & PROGRAMS ===== -->
+    <section class="values section" id="values" aria-labelledby="valuesTitle">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="badge">✦ ערכים ותכניות</div>
+          <h2 class="section-title" id="valuesTitle">מה מניע אותנו</h2>
+          <p class="section-subtitle">ארבעה ערכי ליבה שעומדים בבסיס כל מה שאנחנו עושים, ותכניות שמתרגמות אותם למציאות</p>
+        </div>
+
+        <!-- Values Grid -->
+        <div class="values__grid" role="list">
+          <article class="value-card reveal" role="listitem">
+            <div class="value-card__icon" aria-hidden="true">🌊</div>
+            <h3 class="value-card__title">שייכות לטבע</h3>
+            <p class="value-card__desc">
+              אנחנו מאמינים שחיבור לטבע הוא צורך יסודי של האדם. ים אינו מותרות — הוא זכות.
+              אנו פועלים להסיר את המחסומים שמרחיקים ילדים מניסיון הטבע.
+            </p>
+          </article>
+
+          <article class="value-card reveal reveal--delay-1" role="listitem">
+            <div class="value-card__icon" aria-hidden="true">🤝</div>
+            <h3 class="value-card__title">קהילה ושייכות</h3>
+            <p class="value-card__desc">
+              הים מאחד. הוא לא מסתכל על רקע, על שכונה, על ציונים.
+              הפעילויות שלנו בונות חברויות אמיתיות ורשת תמיכה קהילתית.
+            </p>
+          </article>
+
+          <article class="value-card reveal reveal--delay-2" role="listitem">
+            <div class="value-card__icon" aria-hidden="true">🌱</div>
+            <h3 class="value-card__title">אחריות סביבתית</h3>
+            <p class="value-card__desc">
+              כל פעילות שלנו מלמדת גם שמירת טבע. הילדים שמגיעים אלינו יוצאים עם ידע, כלים,
+              ורצון פעיל לשמור על הים שהם למדו לאהוב.
+            </p>
+          </article>
+
+          <article class="value-card reveal" role="listitem">
+            <div class="value-card__icon" aria-hidden="true">⚡</div>
+            <h3 class="value-card__title">העצמה</h3>
+            <p class="value-card__desc">
+              גלישה, שחייה, צלילה — כל אלה מלמדים שניתן להתגבר, לנסות, ולהצליח.
+              הביטחון שנבנה על החוף עובר לכיתה, לבית, לחיים.
+            </p>
+          </article>
+
+          <article class="value-card reveal reveal--delay-1" role="listitem">
+            <div class="value-card__icon" aria-hidden="true">🔬</div>
+            <h3 class="value-card__title">מבוסס ראיות</h3>
+            <p class="value-card__desc">
+              אנחנו עובדים בשיתוף עם אקדמאים ומתבססים על מחקר. אנחנו מודדים, לומדים
+              ומשפרים כל הזמן כדי לוודא שהשפעתנו אמיתית.
+            </p>
+          </article>
+
+          <article class="value-card reveal reveal--delay-2" role="listitem">
+            <div class="value-card__icon" aria-hidden="true">🎯</div>
+            <h3 class="value-card__title">שוויון הזדמנויות</h3>
+            <p class="value-card__desc">
+              ילד מנתניה ראוי לאותה חוויה כמו ילד מהרצליה פיתוח.
+              אנחנו עובדים ללא תשלום מהמשפחות — כי נגישות היא עיקרון, לא גמילות חסדים.
+            </p>
+          </article>
+        </div>
+
+        <!-- Programs -->
+        <div style="margin-top: 5rem;">
+          <div class="section-header reveal">
+            <div class="badge">✦ תכניות</div>
+            <h2 class="section-title">איך אנחנו עושים את זה</h2>
+            <p class="section-subtitle">ארבע תכניות מרכזיות, כל אחת עם גישה ייחודית לחיבור בין ילדים לים</p>
+          </div>
+
+          <div class="programs__grid">
+            <article class="program-card reveal" id="volunteer">
+              <div class="program-card__accent"></div>
+              <div class="program-card__body">
+                <div class="program-card__tag">תכנית ליבה</div>
+                <h3 class="program-card__title">🌊 ים לכולם</h3>
+                <p class="program-card__desc">
+                  תכנית שנתית לילדים בגיל 6–12 מאזורי פריפריה ומגזרים מוחלשים. שישה מפגשי חוף,
+                  גלישה מונגשת, סדנת שמירת טבע, וטיול שייט שנתי. ללא עלות למשפחות.
+                </p>
+              </div>
+            </article>
+
+            <article class="program-card reveal reveal--delay-1">
+              <div class="program-card__accent"></div>
+              <div class="program-card__body">
+                <div class="program-card__tag">שמירת טבע</div>
+                <h3 class="program-card__title">🪸 גינת אלמוגים</h3>
+                <p class="program-card__desc">
+                  מיזם שיתוף פעולה עם אוניברסיטת בן-גוריון לשיקום שוניות האלמוגים.
+                  מתנדבים מוסמכים שותלים אלמוגי ענף ועוקבים אחרי התפתחותם — נתונים שפתוחים לקהל.
+                </p>
+              </div>
+            </article>
+
+            <article class="program-card reveal">
+              <div class="program-card__accent"></div>
+              <div class="program-card__body">
+                <div class="program-card__tag">חינוך</div>
+                <h3 class="program-card__title">📚 כיתת חוף</h3>
+                <p class="program-card__desc">
+                  תכנית לבתי ספר יסודיים: מדריך גלים מגיע לכיתה, מציג עולם הים, ומלווה יציאה חד-פעמית
+                  לחוף. תכנית לימודים מותאמת מגן ועד כיתה ו׳. כבר ב-120 בתי ספר.
+                </p>
+              </div>
+            </article>
+
+            <article class="program-card reveal reveal--delay-1">
+              <div class="program-card__accent"></div>
+              <div class="program-card__body">
+                <div class="program-card__tag">נוער</div>
+                <h3 class="program-card__title">🚀 גל בשביל נוער</h3>
+                <p class="program-card__desc">
+                  מסלול מנהיגות לגילאי 14–18: מדריכי גלישה עתידיים, שגרירי ים בקהילה שלהם.
+                  כולל הכשרה מקצועית, שעות שירות לאומי, ותעודה מוכרת.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INSTAGRAM ===== -->
+    <section class="instagram" id="instagram" aria-labelledby="instagramTitle">
+      <div class="container instagram__inner">
+        <div class="instagram__icon" aria-hidden="true">📸</div>
+        <h2 class="instagram__title" id="instagramTitle">עקבו אחרינו<br/>ברשת</h2>
+        <p class="instagram__subtitle">
+          יום-יום אנחנו מתעדים ילדים, גלים, ורגעים שלא ניתן לתאר במילים.
+          הצטרפו לקהילת 25,000 אוהבי ים שכבר שם.
+        </p>
+        <span class="instagram__handle">@galim_nonprofit</span>
+
+        <div class="instagram__preview" role="list" aria-label="תמונות מאינסטגרם">
+          <div class="instagram__preview-item reveal" role="listitem">🏄</div>
+          <div class="instagram__preview-item reveal reveal--delay-1" role="listitem">🐠</div>
+          <div class="instagram__preview-item reveal reveal--delay-2" role="listitem">🌅</div>
+          <div class="instagram__preview-item reveal reveal--delay-3" role="listitem">🪸</div>
+        </div>
+
+        <a href="https://instagram.com/galim_nonprofit" target="_blank" rel="noopener noreferrer"
+           class="btn btn-primary" style="margin-inline:auto;">
+          📷 &nbsp;לפרופיל האינסטגרם
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== DONATION FORM ===== -->
+    <section class="donation section" id="donation" aria-labelledby="donationTitle">
+      <div class="container">
+        <div class="donation__grid">
+          <!-- Info -->
+          <div class="donation__info reveal">
+            <div class="badge">✦ תרומה</div>
+            <h2 id="donationTitle">הגל הבא<br/>מתחיל בך</h2>
+
+            <p>
+              כל תרומה — קטנה כגדולה — מביאה ילד אחד יותר קרוב לחוף, שותלת אלמוג אחד נוסף,
+              ונותנת למתנדב עוד ציוד לעבוד איתו.
+            </p>
+            <p>
+              אנחנו עמותה מוכרת לצרכי מס לפי סעיף 46. כל תרומה מעל 200 ₪ מזכה בהטבת מס.
+              <strong style="color:var(--c-ocean);">100% מהתרומות מגיעות לתכניות.</strong>
+            </p>
+
+            <div class="donation__trust" aria-label="מחויבויות שלנו">
+              <div class="donation__trust-item">דוחות כספיים שקופים ומלאים</div>
+              <div class="donation__trust-item">אישור תרומה לצרכי מס (סעיף 46)</div>
+              <div class="donation__trust-item">עדכון על השפעת תרומתך</div>
+              <div class="donation__trust-item">ביטול מינוי בכל עת</div>
+            </div>
+
+            <!-- Placeholder for payment integration -->
+            <!-- TODO: Integrate payment gateway (e.g., Tranzila / Bit / Stripe) -->
+            <div style="margin-top:2rem;padding:1.2rem;background:var(--c-cream);border-radius:var(--r-md);border:1px dashed var(--c-border);">
+              <p style="font-size:0.85rem;color:var(--c-muted);margin:0;">
+                🔒 &nbsp;עיבוד התשלום מאובטח. שילוב שער תשלום — בקרוב.
+              </p>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="donation__form-wrap reveal reveal--delay-2">
+            <h3 class="donation__form-title">השאירו פרטים</h3>
+            <p class="donation__form-sub">ונציג שלנו יחזור אליכם לתיאום תרומה</p>
+
+            <form id="donationForm" novalidate aria-label="טופס תרומה">
+              <div class="form-group">
+                <label class="form-label" for="firstName">שם פרטי *</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  placeholder="השם הפרטי שלך"
+                  autocomplete="given-name"
+                  required
+                  aria-describedby="firstNameError"
+                />
+                <span class="form-error" id="firstNameError" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="email">אימייל *</label>
+                <input
+                  class="form-input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your@email.com"
+                  autocomplete="email"
+                  required
+                  dir="ltr"
+                  style="text-align:right;"
+                  aria-describedby="emailError"
+                />
+                <span class="form-error" id="emailError" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="phone">טלפון *</label>
+                <input
+                  class="form-input"
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="050-0000000"
+                  autocomplete="tel"
+                  required
+                  dir="ltr"
+                  style="text-align:right;"
+                  aria-describedby="phoneError"
+                />
+                <span class="form-error" id="phoneError" role="alert"></span>
+              </div>
+
+              <button type="submit" class="form-submit">
+                שלחו פרטים ❤️
+              </button>
+
+              <p class="form-note">
+                על ידי שליחת הטופס, אתם מאשרים קבלת עדכונים מגלים.
+                ניתן לבטל בכל עת. <a href="#" style="color:var(--c-teal);">מדיניות פרטיות</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="index.html" class="nav__logo" style="margin-bottom:0.5rem;">
+            <div class="nav__logo-mark">🌊</div>
+            <div>
+              <span class="nav__logo-text">גלים</span>
+              <span class="nav__logo-sub">עמותה לחינוך ימי</span>
+            </div>
+          </a>
+          <p>מחברים ילדים לים, מגנים על חופינו, ומטפחים דור שאוהב ומכבד את הטבע.</p>
+        </div>
+
+        <div class="footer__col">
+          <h4>ניווט</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">בית</a></li>
+            <li><a href="about/index.html">אודות</a></li>
+            <li><a href="blog/index.html">בלוג</a></li>
+            <li><a href="#donation">תרומה</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>תכניות</h4>
+          <ul class="footer__links">
+            <li><a href="#values">ים לכולם</a></li>
+            <li><a href="#values">גינת אלמוגים</a></li>
+            <li><a href="#values">כיתת חוף</a></li>
+            <li><a href="#values">גל בשביל נוער</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>צרו קשר</h4>
+          <ul class="footer__links">
+            <li><a href="mailto:info@galim.org.il">info@galim.org.il</a></li>
+            <li><a href="tel:+97236000000">03-6000000</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">אינסטגרם</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener">פייסבוק</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© 2025 עמותת גלים. כל הזכויות שמורות. ע"ר מס׳ 580123456</span>
+        <div style="display:flex;gap:1.5rem;">
+          <a href="#">מדיניות פרטיות</a>
+          <a href="#">תנאי שימוש</a>
+          <a href="#">נגישות</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
