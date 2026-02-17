@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/25371142/README.md)
+[README.md](https://github.com/user-attachments/files/25371284/README.md)
 # 🌊 גלים — Galim Nonprofit Website
 
 Static website for the Galim sea education nonprofit. Built for Vercel deployment.
